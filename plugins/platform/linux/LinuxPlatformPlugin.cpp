@@ -47,7 +47,6 @@ LinuxPlatformPlugin::LinuxPlatformPlugin( QObject* parent ) :
 
 LinuxPlatformPlugin::~LinuxPlatformPlugin()
 {
-	m_linuxInputDeviceFunctions.enableInputDevices();
 }
 
 
