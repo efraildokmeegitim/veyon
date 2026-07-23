@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ko">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ko">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -44,6 +46,25 @@ Veyon 번역에 관심이 있거나 번역을 개선하실 의향이 있으신 �
     <message>
         <source>About Veyon %1</source>
         <translation>Veyon %1 에 대하여</translation>
+    </message>
+</context>
+<context>
+    <name>AccessControlConfigurationPage</name>
+    <message>
+        <source>Access Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access Control Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blocked Applications (comma separated):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block internet access completely (override list)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -131,6 +152,37 @@ Veyon 번역에 관심이 있거나 번역을 개선하실 의향이 있으신 �
     <message>
         <source>The specified user is not allowed to access computers with this configuration.</source>
         <translation>이 설정은 특정 사용자의 컴퓨터 접속을 막습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>AccessControlPlugin</name>
+    <message>
+        <source>Block Internet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block internet access on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block Apps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block restricted applications on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block USB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block USB storage devices on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internet and Application Access Control</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -252,7 +304,7 @@ Veyon 번역에 관심이 있거나 번역을 개선하실 의향이 있으신 �
     </message>
     <message>
         <source>Local computer is already being accessed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -303,7 +355,72 @@ Veyon 번역에 관심이 있거나 번역을 개선하실 의향이 있으신 �
     </message>
     <message>
         <source>There is no matching rule with a valid action. The access is therefore denied.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AnnotationPlugin</name>
+    <message>
+        <source>Ekran Çizimi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran üzerinde serbest çizim yapın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran Çizimi (Anotasyon)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerDialog</name>
+    <message>
+        <source>Kara Liste Yönetimi (Uygulama Engelleyici)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Engellenen Uygulamalar (örn: minecraft.exe):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama adı...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçileni Kaldır</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygula ve Kapat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bu uygulama zaten listede!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerPlugin</name>
+    <message>
+        <source>Uygulama Engelle (Kara Liste)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin belirli programları çalıştırmasını engeller.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama Engelleyici (Kara Liste)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -418,7 +535,7 @@ The public key is used on client computers to authenticate incoming connection r
         <source>Please enter the name of the user group or role for which to import the authentication key.
 
 Make sure that the names of the keys belonging to each other are identical on all computers.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -588,7 +705,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Please specify the command to display help for.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>NAME</source>
@@ -636,11 +753,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The specified command does not exist or no help is available for it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please specify the key name (e.g. &quot;teacher/public&quot;) as the first argument.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>TYPE</source>
@@ -706,11 +823,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Move selected computer up</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move selected computer down</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
@@ -734,11 +851,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Move selected location up</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move selected location down</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The import of CSV files is possible through the command line interface. For more information, see the &lt;a href=&quot;https://docs.veyon.io/en/latest/admin/cli.html#network-object-directory&quot;&gt;online documentation&lt;/a&gt;.</source>
@@ -885,7 +1002,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The specified command does not exist or no help is available for it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid type specified. Valid values are &quot;%1&quot; or &quot;%2&quot;.</source>
@@ -1001,7 +1118,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Location &quot;%1&quot; not found.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1016,6 +1133,51 @@ Make sure that the names of the keys belonging to each other are identical on al
     <message>
         <source>Builtin VNC server (x11vnc)</source>
         <translation>Builtin VNC server (x11vnc)</translation>
+    </message>
+</context>
+<context>
+    <name>ChatMasterDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatPlugin</name>
+    <message>
+        <source>Sohbet (Chat)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerle karşılıklı sohbet başlatın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>El Kaldırma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2) adlı öğrenci soru sormak istiyor!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2-Way Chat Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatStudentDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmenle Sohbet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1034,7 +1196,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>[no user]</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Online and connected</source>
@@ -1086,7 +1248,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>No features active</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1117,11 +1279,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Veyon Service %1 at %2:%3</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Active connections:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1132,7 +1294,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Logged in since</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Missing network object directory plugin</source>
@@ -1140,7 +1302,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>No default network object directory plugin was found. Please check your installation or configure a different network object directory backend via Veyon Configurator.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Computer name;Hostname;User</source>
@@ -1148,11 +1310,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>%1 days</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1 day</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Location detection failed</source>
@@ -1160,11 +1322,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The location of this computer could not be determined. This indicates a problem with the system configuration. No locations and computers will be displayed in the &quot;Locations &amp; computers&quot; panel.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown location</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1277,15 +1439,15 @@ Make sure that the names of the keys belonging to each other are identical on al
     <name>ConfigurationManager</name>
     <message>
         <source>Could not modify the autostart property for the Veyon Service.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not configure the firewall configuration for the Veyon Server.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not configure the firewall configuration for the Veyon Worker.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not apply platform-specific configuration settings.</source>
@@ -1300,7 +1462,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     <name>DemoClient</name>
     <message>
         <source>Veyon Demo</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1362,7 +1524,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Share your screen or allow a user to share his screen with other users.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Full screen demo</source>
@@ -1378,7 +1540,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>In this mode your screen is being displayed in full screen mode on all computers while the input devices of the users are locked.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Share your own screen in a window</source>
@@ -1390,27 +1552,27 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Share selected user&apos;s screen in fullscreen mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>In this mode the screen of the selected user is being displayed in full screen mode on all computers while the input devices of the users are locked.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Share selected user&apos;s screen in a window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>In this mode the screen of the selected user being displayed in a window on all computers. The users are able to switch to other windows as needed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select a user screen to share.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select only one user screen to share.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All screens</source>
@@ -1468,7 +1630,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Remove selected application</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Predefined websites</source>
@@ -1503,7 +1665,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Click this button to start an application on all computers.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open website</source>
@@ -1531,7 +1693,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Start apps and open websites in user sessions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1607,31 +1769,31 @@ Make sure that the names of the keys belonging to each other are identical on al
     <name>FeatureCommands</name>
     <message>
         <source>List names of all available features</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show table with details of all available features</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Start a feature on a remote host</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stop a feature on a remote host</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please specify the command to display help for.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Displays a list with the names of all available features.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Displays a table with detailed information about all available features. This information include a description, the UID, the name of the plugin providing the respective feature and some other implementation-related details.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HOST ADDRESS</source>
@@ -1639,15 +1801,15 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>FEATURE</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ARGUMENTS</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Starts the specified feature on the specified host by connecting to the Veyon Server running remotely. The feature can be specified by name or UID. Use the ``show`` command to see all available features. Depending on the feature, additional arguments (such as the text message to display) encoded as a single JSON string have to be specified. Please refer to the developer documentation for more information</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lock the screen</source>
@@ -1667,7 +1829,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Stops the specified feature on the specified host by connecting to the Veyon Server running remotely. The feature can be specified by name or UID. Use the ``show`` command to see all available features.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unlock the screen</source>
@@ -1675,7 +1837,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The specified command does not exist or no help is available for it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
@@ -1695,7 +1857,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Worker</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UID</source>
@@ -1707,31 +1869,31 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Invalid feature name or UID specified</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error parsing the JSON-encoded arguments: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Failed to initialize credentials</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not establish a connection to host %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Failed to send feature control message to host %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Feature-related CLI operations</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Commands for controlling features</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1742,51 +1904,51 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subfolder handling</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>*.* or *.docx;*.pdf (leave empty for all files)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File pattern</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Local destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Relative (Documents/) or absolute (/tmp/ or C:\TMP) or empty for configured directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source directory on remote computers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files in source directory only</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files in source directory and subdirectories</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collected files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Start</source>
@@ -1794,34 +1956,34 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Select destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open output directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enter collection name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter a name for this file collection:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Output directory creation failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The output directory &quot;%1&quot; does not exist and could not be created. Please check the configuration and the file permissions for the configured destination directory.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FileCollectTreeModel</name>
     <message>
         <source>Progress</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
@@ -1829,7 +1991,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Number of files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1840,23 +2002,23 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Settings for distributing files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Settings for collecting files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prefix filenames with grouping attribute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Store files in subdirectories based on the grouping attribute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -1864,114 +2026,114 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>First part of user name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Last part of user name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collect all files from configured source directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prompt user for folder to collect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prompt user for files to collect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 3:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Destination directory:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Store collected files in:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Group collected files:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 1:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 2:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directly in the destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subdirectory based on date &amp; time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subdirectory with name entered by the collecting user</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files to collect:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files to exclude:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>e.g. *.lnk or *.desktop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collect files recursively</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Destination directory (remote):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default source directory:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source directory (remote):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User login name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Full name of user</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Device name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remember last source directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create destination directory if it does not exist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FileTransferController</name>
     <message>
         <source>Could not open file %1 for reading! Please check your permissions!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1986,11 +2148,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Destination directory on remote computers:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Relative (Desktop/) or absolute (/tmp/ or C:\TMP) or empty for configured directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Overwrite existing files</source>
@@ -2021,19 +2183,19 @@ Make sure that the names of the keys belonging to each other are identical on al
     <name>FileTransferPlugin</name>
     <message>
         <source>Distribute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Click this button to distribute files from your computer to all computers.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Click this button to collect files from all computers to your computer.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select one or more files to transfer</source>
@@ -2049,31 +2211,108 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The file %1 is to be collected, but is still open in an application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The file %1 is to be collected, but is still open in the application &lt;b&gt;%2&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please save your changes and close the program so that the transfer can be completed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to skip transferring the file %1?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not receive file %1 as it already exists.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not receive file %1 as it could not be opened for writing!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Transfer files between computers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FocusTrackerDialog</name>
+    <message>
+        <source>Dikkat Takibi - Aktif Pencereler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilgisayar (IP)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aktif Uygulama / Pencere</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FocusTrackerPlugin</name>
+    <message>
+        <source>Dikkat Takibi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin anlık olarak hangi pencerede çalıştığını takip edin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmiyor / Masaüstü</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmeyen Pencere (xdotool kurulu olmayabilir)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci Dikkat Takibi (Focus Tracker)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GamificationPlugin</name>
+    <message>
+        <source>Rozet Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere tebrik ve ödül rozeti gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>⭐ Yıldız</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>👏 Harika İş!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚀 Mükemmel Kod</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🥇 Birinci Sınıf!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>💡 Harika Fikir</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere göndermek istediğiniz rozeti seçin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gamification &amp; Badges Plugin</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2092,11 +2331,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Style:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Native</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Authentication</source>
@@ -2208,11 +2447,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Veyon service</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The Veyon service needs to be stopped temporarily in order to remove the log files. Continue?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Log files cleared</source>
@@ -2236,11 +2475,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>User groups</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Include user groups from domain</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Missing user groups backend</source>
@@ -2248,7 +2487,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>No user groups plugin was found. Please check your installation!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Color scheme:</source>
@@ -2267,7 +2506,96 @@ Make sure that the names of the keys belonging to each other are identical on al
     <name>HeadlessVncServer</name>
     <message>
         <source>Headless VNC server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>InventoryMasterDialog</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer / Property</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export to CSV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Waiting for data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Data received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CSV Files (*.csv);;All Files (*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">에러</translation>
+    </message>
+    <message>
+        <source>Could not open file for writing!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inventory successfully exported to CSV!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>InventoryPlugin</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to fetch hardware/software inventory of selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hardware and Software Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>KioskModePlugin</name>
+    <message>
+        <source>Sınav Modu (Kiosk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencileri sadece belirlediğiniz URL&apos;ye girmeye zorlayın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav Modunu Başlat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav adresini veya web sitesi URL&apos;sini girin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav / Kiosk Modu (Web Filtreleme)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2304,7 +2632,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Query timeout</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bind DN</source>
@@ -2548,7 +2876,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Distinguished name (Samba/AD/FreeIPA)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Configured attribute for user login name or computer hostname (OpenLDAP)</source>
@@ -2944,7 +3272,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Map container/OU structure 1:1 to locations</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2991,7 +3319,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>LDAP/AD support for Veyon</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3014,7 +3342,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Minimum session lifetime before server start</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User login</source>
@@ -3022,7 +3350,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Login key sequence</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Input start delay</source>
@@ -3030,11 +3358,11 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Key press interval for text input</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Key press interval to control input fields</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3056,6 +3384,13 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
 </context>
 <context>
+    <name>LuckyWidget</name>
+    <message>
+        <source>🎉 ŞANSLI KİŞİ SENSİN! 🎉</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MainToolBar</name>
     <message>
         <source>Configuration</source>
@@ -3063,7 +3398,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Disable tooltips</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show icons only</source>
@@ -3154,7 +3489,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Adjust size of computer icons automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Auto</source>
@@ -3186,19 +3521,19 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>Slideshow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Spotlight</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Only show computers with logged on users</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Veyon Configurator %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Load settings from file</source>
@@ -3234,7 +3569,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The local configuration backend reported that the configuration is not writable! Please run Veyon Configurator with higher privileges.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Authentication impossible</source>
@@ -3242,7 +3577,7 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>No authentication key files were found or your current ones are outdated. Please create new key files using Veyon Configurator. Alternatively set up logon authentication using Veyon Configurator. Otherwise you won&apos;t be able to access computers using Veyon.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Access denied</source>
@@ -3258,21 +3593,21 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
     <message>
         <source>The feature &quot;%1&quot; is still active. Please stop it before closing Veyon.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use custom computer arrangement.
 
 Press and hold to load arrangement from a file or save current arrangement to a file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Load computer positions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save computer positions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3311,11 +3646,11 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Thumbnail spacing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Auto</source>
@@ -3335,7 +3670,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Only last part of user name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Only computer name</source>
@@ -3355,59 +3690,59 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Thumbnail aspect ratio</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Highest</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>High</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Low</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lowest</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image quality in monitoring mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remote access image quality</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Identify users in guest sessions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>If login name matches</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>If full name matches</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Guest</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Guest user identity extension</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -3415,11 +3750,11 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Prefix</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Suffix</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Behaviour</source>
@@ -3439,7 +3774,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Automatically adjust computer icon size</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Automatically open computer select panel</source>
@@ -3463,7 +3798,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Hide local session</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hide empty locations</source>
@@ -3495,7 +3830,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Open feature windows on the same screen as the main window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Features</source>
@@ -3515,23 +3850,23 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Always expand all locations</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Configuration templates</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Computer name source</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host address</source>
@@ -3539,35 +3874,35 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Session client address</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session client name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session host name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session metadata</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Full name of user</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User login name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Computer UID role</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session meta data hash</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3582,31 +3917,31 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Query application version of the server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Query active features</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Query properties of remotely available screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Identify users in guest sessions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Identification request</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter your name:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>First name + last name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Builtin monitoring mode</source>
@@ -3678,18 +4013,18 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     <name>PipeWireVncServer</name>
     <message>
         <source>Wayland VNC server (PipeWire/XDG Desktop Portal)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PluginCommands</name>
     <message>
         <source>List names of all installed plugins</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show table with details of all installed plugins</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
@@ -3701,7 +4036,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UID</source>
@@ -3709,11 +4044,11 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Plugin-related CLI operations</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Commands for managing plugins</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3780,7 +4115,7 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Do you really want to reboot &lt;b&gt;ALL&lt;/b&gt; computers?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Do you really want to reboot the selected computers?</source>
@@ -3792,11 +4127,11 @@ Press and hold to load arrangement from a file or save current arrangement to a 
     </message>
     <message>
         <source>Do you really want to power down &lt;b&gt;ALL&lt;/b&gt; computers?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Do you really want to power down the selected computers?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid MAC address specified!</source>
@@ -3843,6 +4178,87 @@ Please save your work and close all programs.</source>
     </message>
 </context>
 <context>
+    <name>QuickQuizPlugin</name>
+    <message>
+        <source>Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere çoktan seçmeli hızlı bir anket veya soru gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hızlı Anket ve Quiz Sistemi</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QuizCreatorDialog</name>
+    <message>
+        <source>Hızlı Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Soru Metni:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>B Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>C Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Canlı Sonuçlar</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPickerPlugin</name>
+    <message>
+        <source>Öğrenci Seç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Laboratuvardaki aktif öğrenciler arasından rastgele birini seçerek animasyon gösterir.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçim yapılabilecek hiçbir aktif bilgisayar bulunamadı!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sonuç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Şanslı Bilgisayar Seçildi! Ekranda animasyon oynatılıyor...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rastgele Öğrenci Seçici (Şans Çarkı)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>RemoteAccessFeaturePlugin</name>
     <message>
         <source>Remote view</source>
@@ -3862,7 +4278,7 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Exchange clipboard contents</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show help about command</source>
@@ -3874,7 +4290,7 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>No computer has been selected so you can enter a hostname or IP address of a computer for manual access:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remote view or control a computer</source>
@@ -3885,11 +4301,11 @@ Please save your work and close all programs.</source>
     <name>RemoteAccessWidget</name>
     <message>
         <source>%1 - Veyon Remote Access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 - %2 - Veyon Remote Access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3904,7 +4320,7 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Select screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Send shortcut</source>
@@ -3964,7 +4380,7 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All screens</source>
@@ -3987,19 +4403,27 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Lock input devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unlock input devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>To reclaim all user&apos;s full attention you can lock their computers using this button. In this mode all input devices are locked while the desktop is still visible.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lock screen and input devices of a computer</source>
         <translation>컴퓨터의 입력장치와 화면을 잠금</translation>
+    </message>
+    <message>
+        <source>Lock Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a custom message to display on locked screens (leave empty for default):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4018,7 +4442,7 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Could not open screenshot file %1 for writing.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4080,38 +4504,38 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Do you really want to delete all selected screenshots?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ServerAccessControlManager</name>
     <message>
         <source>Requested authentication method not available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Access allowed by rule &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Access denied by rule &quot;%1&quot;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No rule allowed access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Accessing user not member of an authorized user group</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User has denied access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User confirmed access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4154,11 +4578,11 @@ Please save your work and close all programs.</source>
     </message>
     <message>
         <source>Session mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Local session mode (single server instance for primary local session)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enabling this option will make the service launch a server process for every interactive session on a computer.
@@ -4168,31 +4592,31 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>Active session mode (single server instance for active local or remote session)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Multi session mode (distinct server instance for each local and remote desktop session)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maximum session count</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Network port numbers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Veyon server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Internal VNC server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Feature manager</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Demo server</source>
@@ -4200,7 +4624,7 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>Miscellaneous settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable firewall exception</source>
@@ -4212,7 +4636,7 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>Disable clipboard synchronization</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>VNC server</source>
@@ -4228,7 +4652,7 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>All settings were saved successfully. In order to take effect the Veyon service needs to be restarted. Restart it now?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Running</source>
@@ -4236,11 +4660,11 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>Session metadata</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Content</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -4248,29 +4672,29 @@ Typically this is required to support terminal servers.</source>
     </message>
     <message>
         <source>Value of an environment variable</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Value of a registry key</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Optionally enter a regular expression with a capture to extract a part of the computer name and use it as the display name for the computer.
 
 Example: [^-]*-(PC[0-9]*)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable if a single Veyon Server instance should be launched for the currently active session, no matter if local or remote.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Environment variable name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Registry key name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4281,23 +4705,23 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Starting %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stopping %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restarting %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Registering %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unregistering %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4355,7 +4779,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Interactive shell and script execution for Veyon CLI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Commands for shell functionalities</source>
@@ -4366,58 +4790,58 @@ Example: [^-]*-(PC[0-9]*)</source>
     <name>SlideshowPanel</name>
     <message>
         <source>Previous</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Start/pause</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Next</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Duration:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>View in separate window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Veyon Master – Slideshow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SpotlightPanel</name>
     <message>
         <source>Add computers by clicking with the middle mouse button or clicking the first button below.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add selected computers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove selected computers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Update computers in realtime</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Spotlight</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select at least one computer to add.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select at least one computer to remove.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4436,7 +4860,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Remember and add to application menu</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>e.g. VLC</source>
@@ -4444,7 +4868,128 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Please enter the applications to start on the selected computers. You can separate multiple applications by line.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyMasterDialog</name>
+    <message>
+        <source>Survey Control Panel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Choice (Radio)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice (Checkbox)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Text (1 line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Long Text (Multi-line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True / False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter new option here...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add Option</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop Survey (Close on students)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer</source>
+        <translation type="unfinished">컴퓨터</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No computers selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey sent to %1 computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyPlugin</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send a multiple choice question to students</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyStudentDialog</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder / Submit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cevabınız gönderildi / Your answer has been submitted.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4452,6 +4997,18 @@ Example: [^-]*-(PC[0-9]*)</source>
     <message>
         <source>System tray icon</source>
         <translation>시스템 트레이 아이콘</translation>
+    </message>
+    <message>
+        <source>Soru Sor / Öğretmenle Sohbet Et</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bildirim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğretmeninize el kaldırma bildiriminiz iletildi.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4514,7 +5071,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Maximum CPU usage</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Low accuracy (turbo mode)</source>
@@ -4535,6 +5092,29 @@ Example: [^-]*-(PC[0-9]*)</source>
     <message>
         <source>Enable capturing of layered (semi-transparent) windows</source>
         <translation>계층화된 윈도우 캡쳐 활성화 (반 투명)</translation>
+    </message>
+</context>
+<context>
+    <name>UsbLockPlugin</name>
+    <message>
+        <source>USB Kilitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımını yasakla.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB İzin Ver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımına izin ver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB Flash Bellek Kilitleme Eklentisi</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4580,7 +5160,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Do you really want to log off &lt;b&gt;ALL&lt;/b&gt; users?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Do you really want to log off the selected users?</source>
@@ -4659,11 +5239,11 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Screen %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Guest</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4674,7 +5254,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Could not save your personal settings! Please check the user configuration file path using Veyon Configurator.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4688,7 +5268,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     <name>WebApiConfigurationPage</name>
     <message>
         <source>Web API</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>General</source>
@@ -4696,23 +5276,23 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Network port</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable WebAPI server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lifetime</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> h</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> s</source>
@@ -4720,27 +5300,27 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Idle timeout</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Authentication timeout</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maximum number of open connections</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection encryption</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>TLS certificate file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>TLS private key file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>...</source>
@@ -4748,30 +5328,41 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Use HTTPS with TLS 1.3 instead of HTTP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WebApiPlugin</name>
     <message>
         <source>Run WebAPI server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Failed to start WebAPI server at port %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>WebAPI server running at port %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Provide access to a computer via HTTP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Commands for running the WebAPI server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>WhiteboardWidget</name>
+    <message>
+        <source>Temizle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kapat (Esc)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4817,7 +5408,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Confirm legal notice (message displayed before user logs in)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Screen lock</source>
@@ -4837,27 +5428,27 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Use custom power scheme with disabled power and sleep buttons</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use input device interception driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable touchpads and touchscreens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable keyboard devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable mouse devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Handling of interfering windows</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -4865,22 +5456,22 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>Fix window attributes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Terminate related process</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close session</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WindowsPlatformPlugin</name>
     <message>
         <source>Internal display</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Plugin implementing abstract functions for the Windows platform</source>
@@ -4895,11 +5486,11 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>The service &quot;%1&quot; could not be installed (error %2).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not change the failure actions config for service &quot;%1&quot; (error %2).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The service &quot;%1&quot; has been installed successfully.</source>
@@ -4907,7 +5498,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>The service &quot;%1&quot; could not be uninstalled (error %2).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The service &quot;%1&quot; has been uninstalled successfully.</source>
@@ -4915,7 +5506,7 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
     <message>
         <source>The start type of service &quot;%1&quot; could not be changed (error %2).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Service &quot;%1&quot; could not be found.</source>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ru">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -44,6 +46,25 @@ If you&apos;re interested in translating Veyon into your local or another langua
     <message>
         <source>About Veyon %1</source>
         <translation>О программе Veyon %1</translation>
+    </message>
+</context>
+<context>
+    <name>AccessControlConfigurationPage</name>
+    <message>
+        <source>Access Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access Control Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blocked Applications (comma separated):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block internet access completely (override list)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -131,6 +152,37 @@ If you&apos;re interested in translating Veyon into your local or another langua
     <message>
         <source>The specified user is not allowed to access computers with this configuration.</source>
         <translation>Указанному пользователю не разрешается обращаться к компьютерам с этой конфигурацией.</translation>
+    </message>
+</context>
+<context>
+    <name>AccessControlPlugin</name>
+    <message>
+        <source>Block Internet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block internet access on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block Apps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block restricted applications on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block USB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block USB storage devices on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internet and Application Access Control</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -304,6 +356,71 @@ If you&apos;re interested in translating Veyon into your local or another langua
     <message>
         <source>There is no matching rule with a valid action. The access is therefore denied.</source>
         <translation>Нет правила соответствия с допустимым действием. Поэтому доступ запрещен.</translation>
+    </message>
+</context>
+<context>
+    <name>AnnotationPlugin</name>
+    <message>
+        <source>Ekran Çizimi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran üzerinde serbest çizim yapın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran Çizimi (Anotasyon)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerDialog</name>
+    <message>
+        <source>Kara Liste Yönetimi (Uygulama Engelleyici)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Engellenen Uygulamalar (örn: minecraft.exe):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama adı...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçileni Kaldır</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygula ve Kapat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bu uygulama zaten listede!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerPlugin</name>
+    <message>
+        <source>Uygulama Engelle (Kara Liste)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin belirli programları çalıştırmasını engeller.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama Engelleyici (Kara Liste)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1018,6 +1135,51 @@ Make sure that the names of the keys belonging to each other are identical on al
     <message>
         <source>Builtin VNC server (x11vnc)</source>
         <translation>Встроенный сервер VNC (x11vnc)</translation>
+    </message>
+</context>
+<context>
+    <name>ChatMasterDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatPlugin</name>
+    <message>
+        <source>Sohbet (Chat)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerle karşılıklı sohbet başlatın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>El Kaldırma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2) adlı öğrenci soru sormak istiyor!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2-Way Chat Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatStudentDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmenle Sohbet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2079,6 +2241,83 @@ Make sure that the names of the keys belonging to each other are identical on al
     </message>
 </context>
 <context>
+    <name>FocusTrackerDialog</name>
+    <message>
+        <source>Dikkat Takibi - Aktif Pencereler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilgisayar (IP)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aktif Uygulama / Pencere</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FocusTrackerPlugin</name>
+    <message>
+        <source>Dikkat Takibi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin anlık olarak hangi pencerede çalıştığını takip edin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmiyor / Masaüstü</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmeyen Pencere (xdotool kurulu olmayabilir)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci Dikkat Takibi (Focus Tracker)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GamificationPlugin</name>
+    <message>
+        <source>Rozet Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere tebrik ve ödül rozeti gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>⭐ Yıldız</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>👏 Harika İş!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚀 Mükemmel Kod</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🥇 Birinci Sınıf!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>💡 Harika Fikir</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere göndermek istediğiniz rozeti seçin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gamification &amp; Badges Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>GeneralConfigurationPage</name>
     <message>
         <source>User interface</source>
@@ -2270,6 +2509,95 @@ Make sure that the names of the keys belonging to each other are identical on al
     <message>
         <source>Headless VNC server</source>
         <translation>Автоматический VNC-сервер</translation>
+    </message>
+</context>
+<context>
+    <name>InventoryMasterDialog</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer / Property</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export to CSV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Waiting for data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Data received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CSV Files (*.csv);;All Files (*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Ошибка</translation>
+    </message>
+    <message>
+        <source>Could not open file for writing!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inventory successfully exported to CSV!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>InventoryPlugin</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to fetch hardware/software inventory of selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hardware and Software Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>KioskModePlugin</name>
+    <message>
+        <source>Sınav Modu (Kiosk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencileri sadece belirlediğiniz URL&apos;ye girmeye zorlayın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav Modunu Başlat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav adresini veya web sitesi URL&apos;sini girin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav / Kiosk Modu (Web Filtreleme)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3057,6 +3385,13 @@ Make sure that the names of the keys belonging to each other are identical on al
     <message>
         <source>enter search filter...</source>
         <translation>введите фильтр поиска...</translation>
+    </message>
+</context>
+<context>
+    <name>LuckyWidget</name>
+    <message>
+        <source>🎉 ŞANSLI KİŞİ SENSİN! 🎉</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3849,6 +4184,87 @@ Please save your work and close all programs.</source>
     </message>
 </context>
 <context>
+    <name>QuickQuizPlugin</name>
+    <message>
+        <source>Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere çoktan seçmeli hızlı bir anket veya soru gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hızlı Anket ve Quiz Sistemi</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QuizCreatorDialog</name>
+    <message>
+        <source>Hızlı Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Soru Metni:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>B Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>C Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Canlı Sonuçlar</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPickerPlugin</name>
+    <message>
+        <source>Öğrenci Seç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Laboratuvardaki aktif öğrenciler arasından rastgele birini seçerek animasyon gösterir.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçim yapılabilecek hiçbir aktif bilgisayar bulunamadı!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sonuç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Şanslı Bilgisayar Seçildi! Ekranda animasyon oynatılıyor...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rastgele Öğrenci Seçici (Şans Çarkı)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>RemoteAccessFeaturePlugin</name>
     <message>
         <source>Remote view</source>
@@ -4006,6 +4422,14 @@ Please save your work and close all programs.</source>
     <message>
         <source>Lock screen and input devices of a computer</source>
         <translation>Заблокировать экран и входные устройства компьютера</translation>
+    </message>
+    <message>
+        <source>Lock Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a custom message to display on locked screens (leave empty for default):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4456,10 +4880,143 @@ Example: [^-]*-(PC[0-9]*)</source>
     </message>
 </context>
 <context>
+    <name>SurveyMasterDialog</name>
+    <message>
+        <source>Survey Control Panel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Choice (Radio)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice (Checkbox)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Text (1 line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Long Text (Multi-line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True / False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter new option here...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add Option</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop Survey (Close on students)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer</source>
+        <translation type="unfinished">Компьютер</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No computers selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey sent to %1 computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyPlugin</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send a multiple choice question to students</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyStudentDialog</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder / Submit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cevabınız gönderildi / Your answer has been submitted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SystemTrayIcon</name>
     <message>
         <source>System tray icon</source>
         <translation>Иконка в системном трее</translation>
+    </message>
+    <message>
+        <source>Soru Sor / Öğretmenle Sohbet Et</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bildirim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğretmeninize el kaldırma bildiriminiz iletildi.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4543,6 +5100,29 @@ Example: [^-]*-(PC[0-9]*)</source>
     <message>
         <source>Enable capturing of layered (semi-transparent) windows</source>
         <translation>Включить захват с помощью полупрозрачного окна</translation>
+    </message>
+</context>
+<context>
+    <name>UsbLockPlugin</name>
+    <message>
+        <source>USB Kilitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımını yasakla.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB İzin Ver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımına izin ver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB Flash Bellek Kilitleme Eklentisi</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4780,6 +5360,17 @@ Example: [^-]*-(PC[0-9]*)</source>
     <message>
         <source>Commands for running the WebAPI server</source>
         <translation>Команды для запуска Веб-API сервера</translation>
+    </message>
+</context>
+<context>
+    <name>WhiteboardWidget</name>
+    <message>
+        <source>Temizle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kapat (Esc)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

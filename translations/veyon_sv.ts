@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sv">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sv">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -44,6 +46,25 @@ Om du är intresserad av att översätta Veyon till ditt lokala eller ett ett an
     <message>
         <source>About Veyon %1</source>
         <translation>Om Veyon %1</translation>
+    </message>
+</context>
+<context>
+    <name>AccessControlConfigurationPage</name>
+    <message>
+        <source>Access Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access Control Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blocked Applications (comma separated):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block internet access completely (override list)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -134,10 +155,41 @@ Om du är intresserad av att översätta Veyon till ditt lokala eller ett ett an
     </message>
 </context>
 <context>
+    <name>AccessControlPlugin</name>
+    <message>
+        <source>Block Internet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block internet access on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block Apps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block restricted applications on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block USB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to block USB storage devices on selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internet and Application Access Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AccessControlProvider</name>
     <message>
         <source>Provider for access control features</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -303,7 +355,72 @@ Om du är intresserad av att översätta Veyon till ditt lokala eller ett ett an
     </message>
     <message>
         <source>There is no matching rule with a valid action. The access is therefore denied.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AnnotationPlugin</name>
+    <message>
+        <source>Ekran Çizimi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran üzerinde serbest çizim yapın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekran Çizimi (Anotasyon)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerDialog</name>
+    <message>
+        <source>Kara Liste Yönetimi (Uygulama Engelleyici)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Engellenen Uygulamalar (örn: minecraft.exe):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama adı...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ekle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçileni Kaldır</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygula ve Kapat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bu uygulama zaten listede!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AppBlockerPlugin</name>
+    <message>
+        <source>Uygulama Engelle (Kara Liste)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin belirli programları çalıştırmasını engeller.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uygulama Engelleyici (Kara Liste)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -708,11 +825,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Move selected computer up</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move selected computer down</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
@@ -736,11 +853,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Move selected location up</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move selected location down</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The import of CSV files is possible through the command line interface. For more information, see the &lt;a href=&quot;https://docs.veyon.io/en/latest/admin/cli.html#network-object-directory&quot;&gt;online documentation&lt;/a&gt;.</source>
@@ -1021,6 +1138,51 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
 </context>
 <context>
+    <name>ChatMasterDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatPlugin</name>
+    <message>
+        <source>Sohbet (Chat)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerle karşılıklı sohbet başlatın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>El Kaldırma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (%2) adlı öğrenci soru sormak istiyor!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2-Way Chat Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ChatStudentDialog</name>
+    <message>
+        <source>Veyon Chat - Öğretmenle Sohbet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ComputerControlListModel</name>
     <message>
         <source>Name: %1</source>
@@ -1119,7 +1281,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Veyon Service %1 at %2:%3</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Active connections:</source>
@@ -1142,7 +1304,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>No default network object directory plugin was found. Please check your installation or configure a different network object directory backend via Veyon Configurator.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Computer name;Hostname;User</source>
@@ -1279,15 +1441,15 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     <name>ConfigurationManager</name>
     <message>
         <source>Could not modify the autostart property for the Veyon Service.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not configure the firewall configuration for the Veyon Server.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not configure the firewall configuration for the Veyon Worker.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not apply platform-specific configuration settings.</source>
@@ -1302,7 +1464,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     <name>DemoClient</name>
     <message>
         <source>Veyon Demo</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1744,31 +1906,31 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subfolder handling</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>*.* or *.docx;*.pdf (leave empty for all files)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File pattern</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Local destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Relative (Documents/) or absolute (/tmp/ or C:\TMP) or empty for configured directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source directory on remote computers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
@@ -1776,11 +1938,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Files in source directory only</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files in source directory and subdirectories</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collected files</source>
@@ -1796,11 +1958,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Select destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open output directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enter collection name</source>
@@ -1831,7 +1993,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Number of files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1850,15 +2012,15 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prefix filenames with grouping attribute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Store files in subdirectories based on the grouping attribute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -1866,11 +2028,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>First part of user name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Last part of user name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collect all files from configured source directory</source>
@@ -1878,59 +2040,59 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Prompt user for folder to collect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prompt user for files to collect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 3:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Destination directory:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Store collected files in:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Group collected files:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 1:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grouping attribute 2:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directly in the destination directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subdirectory based on date &amp; time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Subdirectory with name entered by the collecting user</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files to collect:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files to exclude:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>e.g. *.lnk or *.desktop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collect files recursively</source>
@@ -1938,15 +2100,15 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Destination directory (remote):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default source directory:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source directory (remote):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User login name</source>
@@ -1973,7 +2135,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     <name>FileTransferController</name>
     <message>
         <source>Could not open file %1 for reading! Please check your permissions!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1988,11 +2150,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Destination directory on remote computers:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Relative (Desktop/) or absolute (/tmp/ or C:\TMP) or empty for configured directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Overwrite existing files</source>
@@ -2047,35 +2209,112 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Received file %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The file %1 is to be collected, but is still open in an application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The file %1 is to be collected, but is still open in the application &lt;b&gt;%2&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please save your changes and close the program so that the transfer can be completed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to skip transferring the file %1?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not receive file %1 as it already exists.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not receive file %1 as it could not be opened for writing!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Transfer files between computers</source>
         <translation>Överför filer mellan datorer</translation>
+    </message>
+</context>
+<context>
+    <name>FocusTrackerDialog</name>
+    <message>
+        <source>Dikkat Takibi - Aktif Pencereler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilgisayar (IP)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aktif Uygulama / Pencere</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FocusTrackerPlugin</name>
+    <message>
+        <source>Dikkat Takibi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilerin anlık olarak hangi pencerede çalıştığını takip edin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmiyor / Masaüstü</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bilinmeyen Pencere (xdotool kurulu olmayabilir)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci Dikkat Takibi (Focus Tracker)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GamificationPlugin</name>
+    <message>
+        <source>Rozet Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere tebrik ve ödül rozeti gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>⭐ Yıldız</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>👏 Harika İş!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚀 Mükemmel Kod</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🥇 Birinci Sınıf!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>💡 Harika Fikir</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere göndermek istediğiniz rozeti seçin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gamification &amp; Badges Plugin</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2210,11 +2449,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Veyon service</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The Veyon service needs to be stopped temporarily in order to remove the log files. Continue?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Log files cleared</source>
@@ -2270,6 +2509,95 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     <message>
         <source>Headless VNC server</source>
         <translation>Huvudlös VNC-server</translation>
+    </message>
+</context>
+<context>
+    <name>InventoryMasterDialog</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer / Property</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export to CSV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Waiting for data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Data received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CSV Files (*.csv);;All Files (*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Fel</translation>
+    </message>
+    <message>
+        <source>Could not open file for writing!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inventory successfully exported to CSV!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>InventoryPlugin</name>
+    <message>
+        <source>System Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to fetch hardware/software inventory of selected computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hardware and Software Inventory</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>KioskModePlugin</name>
+    <message>
+        <source>Sınav Modu (Kiosk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencileri sadece belirlediğiniz URL&apos;ye girmeye zorlayın.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav Modunu Başlat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav adresini veya web sitesi URL&apos;sini girin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sınav / Kiosk Modu (Web Filtreleme)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2948,7 +3276,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Map container/OU structure 1:1 to locations</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2995,7 +3323,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>LDAP/AD support for Veyon</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3034,11 +3362,11 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Key press interval for text input</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Key press interval to control input fields</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3057,6 +3385,13 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     <message>
         <source>enter search filter...</source>
         <translation>ange sökfilter ...</translation>
+    </message>
+</context>
+<context>
+    <name>LuckyWidget</name>
+    <message>
+        <source>🎉 ŞANSLI KİŞİ SENSİN! 🎉</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3202,7 +3537,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>Veyon Configurator %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Load settings from file</source>
@@ -3238,7 +3573,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>The local configuration backend reported that the configuration is not writable! Please run Veyon Configurator with higher privileges.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Authentication impossible</source>
@@ -3246,7 +3581,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>No authentication key files were found or your current ones are outdated. Please create new key files using Veyon Configurator. Alternatively set up logon authentication using Veyon Configurator. Otherwise you won&apos;t be able to access computers using Veyon.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Access denied</source>
@@ -3262,7 +3597,7 @@ Se till att namnen på de nycklar som tillhör varandra är identiska på alla d
     </message>
     <message>
         <source>The feature &quot;%1&quot; is still active. Please stop it before closing Veyon.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use custom computer arrangement.
@@ -3393,19 +3728,19 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     </message>
     <message>
         <source>Identify users in guest sessions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>If login name matches</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>If full name matches</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Guest</source>
@@ -3413,7 +3748,7 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     </message>
     <message>
         <source>Guest user identity extension</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
@@ -3421,11 +3756,11 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     </message>
     <message>
         <source>Prefix</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Suffix</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Behaviour</source>
@@ -3600,7 +3935,7 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     </message>
     <message>
         <source>Identify users in guest sessions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Identification request</source>
@@ -3612,7 +3947,7 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     </message>
     <message>
         <source>First name + last name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Builtin monitoring mode</source>
@@ -3684,7 +4019,7 @@ Håll nedtryckt för att ladda arrangemanget från en fil eller spara aktuellt a
     <name>PipeWireVncServer</name>
     <message>
         <source>Wayland VNC server (PipeWire/XDG Desktop Portal)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3849,6 +4184,87 @@ Spara ditt arbete och stäng alla program.</translation>
     </message>
 </context>
 <context>
+    <name>QuickQuizPlugin</name>
+    <message>
+        <source>Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere çoktan seçmeli hızlı bir anket veya soru gönderin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hızlı Anket ve Quiz Sistemi</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QuizCreatorDialog</name>
+    <message>
+        <source>Hızlı Anket Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Soru Metni:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>B Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>C Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D Şıkkı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrencilere Gönder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Canlı Sonuçlar</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPickerPlugin</name>
+    <message>
+        <source>Öğrenci Seç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Laboratuvardaki aktif öğrenciler arasından rastgele birini seçerek animasyon gösterir.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uyarı</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seçim yapılabilecek hiçbir aktif bilgisayar bulunamadı!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sonuç</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Şanslı Bilgisayar Seçildi! Ekranda animasyon oynatılıyor...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rastgele Öğrenci Seçici (Şans Çarkı)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>RemoteAccessFeaturePlugin</name>
     <message>
         <source>Remote view</source>
@@ -3891,11 +4307,11 @@ Spara ditt arbete och stäng alla program.</translation>
     <name>RemoteAccessWidget</name>
     <message>
         <source>%1 - Veyon Remote Access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 - %2 - Veyon Remote Access</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4006,6 +4422,14 @@ Spara ditt arbete och stäng alla program.</translation>
     <message>
         <source>Lock screen and input devices of a computer</source>
         <translation>Låsskärm och inmatningsenheter på en dator</translation>
+    </message>
+    <message>
+        <source>Lock Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a custom message to display on locked screens (leave empty for default):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4234,7 +4658,7 @@ Detta krävs vanligtvis för att stödja terminalservrar.</translation>
     </message>
     <message>
         <source>All settings were saved successfully. In order to take effect the Veyon service needs to be restarted. Restart it now?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Running</source>
@@ -4394,7 +4818,7 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
     <message>
         <source>Veyon Master – Slideshow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4456,10 +4880,143 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
 </context>
 <context>
+    <name>SurveyMasterDialog</name>
+    <message>
+        <source>Survey Control Panel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Choice (Radio)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice (Checkbox)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Text (1 line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Long Text (Multi-line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True / False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter new option here...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add Option</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop Survey (Close on students)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computer</source>
+        <translation type="unfinished">Dator</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No computers selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Survey sent to %1 computers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyPlugin</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send a multiple choice question to students</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple Choice Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SurveyStudentDialog</name>
+    <message>
+        <source>Survey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Question Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gönder / Submit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>True</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>False</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cevabınız gönderildi / Your answer has been submitted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SystemTrayIcon</name>
     <message>
         <source>System tray icon</source>
         <translation>Ikon för systemfältet</translation>
+    </message>
+    <message>
+        <source>Soru Sor / Öğretmenle Sohbet Et</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bildirim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğretmeninize el kaldırma bildiriminiz iletildi.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4543,6 +5100,29 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     <message>
         <source>Enable capturing of layered (semi-transparent) windows</source>
         <translation>Aktivera fångst av flerskiktade fönster (semi-transparant)</translation>
+    </message>
+</context>
+<context>
+    <name>UsbLockPlugin</name>
+    <message>
+        <source>USB Kilitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımını yasakla.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB İzin Ver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Öğrenci bilgisayarlarında USB kullanımına izin ver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB Flash Bellek Kilitleme Eklentisi</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4682,7 +5262,7 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
     <message>
         <source>Could not save your personal settings! Please check the user configuration file path using Veyon Configurator.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4783,6 +5363,17 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
 </context>
 <context>
+    <name>WhiteboardWidget</name>
+    <message>
+        <source>Temizle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kapat (Esc)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WindowsPlatformConfiguration</name>
     <message>
         <source>Could not change the setting for SAS generation by software. Sending Ctrl+Alt+Del via remote control will not work!</source>
@@ -4845,7 +5436,7 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
     <message>
         <source>Use custom power scheme with disabled power and sleep buttons</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use input device interception driver</source>
@@ -4853,15 +5444,15 @@ Exempel: [^-]*-(pc[0-9]*) [^-]*-(PC[0-9]*)</translation>
     </message>
     <message>
         <source>Disable touchpads and touchscreens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable keyboard devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable mouse devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Handling of interfering windows</source>
