@@ -4,13 +4,17 @@
 #include <QSettings>
 #include <QLabel>
 #include <QMessageBox>
+#include <QCheckBox>
 
 AppBlockerDialog::AppBlockerDialog(QWidget* parent) : QDialog(parent)
 {
 	setWindowTitle(tr("Kara Liste Yönetimi (Uygulama Engelleyici)"));
-	resize(400, 300);
+	resize(400, 350);
 
 	QVBoxLayout* mainLayout = new QVBoxLayout(this);
+
+	m_whitelistCheckbox = new QCheckBox(tr("Sadece sistem ve program klasörlerindeki uygulamalara izin ver\n(Taşınabilir/İndirilen uygulamaları engelle)"), this);
+	mainLayout->addWidget(m_whitelistCheckbox);
 
 	mainLayout->addWidget(new QLabel(tr("Engellenen Uygulamalar (örn: minecraft.exe):")));
 
@@ -48,6 +52,7 @@ void AppBlockerDialog::loadSettings()
 	QSettings settings("VeyonCommunity", "AppBlocker");
 	QStringList apps = settings.value("Blacklist").toStringList();
 	m_listWidget->addItems(apps);
+	m_whitelistCheckbox->setChecked(settings.value("WhitelistMode", false).toBool());
 }
 
 void AppBlockerDialog::addApp()
@@ -78,6 +83,7 @@ void AppBlockerDialog::applySettings()
 	QStringList apps = getBlockedApps();
 	QSettings settings("VeyonCommunity", "AppBlocker");
 	settings.setValue("Blacklist", apps);
+	settings.setValue("WhitelistMode", m_whitelistCheckbox->isChecked());
 	accept();
 }
 
@@ -88,4 +94,9 @@ QStringList AppBlockerDialog::getBlockedApps() const
 		apps.append(m_listWidget->item(i)->text());
 	}
 	return apps;
+}
+
+bool AppBlockerDialog::getWhitelistMode() const
+{
+	return m_whitelistCheckbox->isChecked();
 }

@@ -11,7 +11,8 @@ enum class AppBlockerCommand {
 };
 
 enum class AppBlockerArgument {
-	AppList = 0
+	AppList = 0,
+	WhitelistMode = 1
 };
 
 class VEYON_CORE_EXPORT AppBlockerPlugin : public QObject, public FeatureProviderInterface, public PluginInterface
@@ -50,4 +51,5 @@ private:
 
 	QTimer m_killTimer;
 	QStringList m_blockedApps;
+	bool m_whitelistModeEnabled = false;
 };

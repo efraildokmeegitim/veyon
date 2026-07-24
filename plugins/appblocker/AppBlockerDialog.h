@@ -13,6 +13,7 @@ public:
 	~AppBlockerDialog() override = default;
 
 	QStringList getBlockedApps() const;
+	bool getWhitelistMode() const;
 
 private Q_SLOTS:
 	void addApp();
@@ -27,4 +28,5 @@ private:
 	QPushButton* m_addButton;
 	QPushButton* m_removeButton;
 	QPushButton* m_applyButton;
+	class QCheckBox* m_whitelistCheckbox;
 };

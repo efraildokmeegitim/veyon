@@ -407,6 +407,11 @@ Om du är intresserad av att översätta Veyon till ditt lokala eller ett ett an
         <source>Bu uygulama zaten listede!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Sadece sistem ve program klasörlerindeki uygulamalara izin ver
+(Taşınabilir/İndirilen uygulamaları engelle)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AppBlockerPlugin</name>
